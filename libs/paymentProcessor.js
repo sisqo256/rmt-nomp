@@ -534,7 +534,7 @@ function SetupForPool(logger, poolOptions, setupFinished){
         if (address.length === 40){
             return util.addressFromEx(poolOptions.address, address);
         }
-        else return address;
+        else return address.split('.')[0];
     };
 
 
