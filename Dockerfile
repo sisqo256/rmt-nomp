@@ -17,4 +17,4 @@ RUN ln -s /opt/config/coins /opt/rmt-nomp/coins
 
 RUN apt-get install -y redis-server
 
-CMD service redis-server restart; sleep 90; node init.js
+CMD service redis-server restart; node init.js
