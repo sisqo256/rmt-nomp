@@ -3,7 +3,7 @@ RUN apt-get update
 RUN apt-get install -y sudo git nano curl
 
 WORKDIR /opt/
-RUN git clone https://github.com/TheRetroMike/rmt-nomp
+RUN git clone https://github.com/sisqo256/rmt-nomp
 
 WORKDIR /opt/rmt-nomp
 RUN npm update
